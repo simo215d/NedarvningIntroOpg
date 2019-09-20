@@ -1,7 +1,12 @@
 public class Leder extends MoodleUser {
 
 
-    void fyrLærer(Lærer lærer){
-        lærer.setUnderviser(false);
+    void fyrLærer(Larer larer){
+        larer.setUnderviser(false);
+    }
+
+    void loenBonus(Larer lære){
+        int current = lære.getLoen();
+        lære.setLoen(current+=1000);
     }
 }

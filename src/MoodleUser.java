@@ -1,13 +1,13 @@
 public class MoodleUser {
-    double loen;
+    int loen;
     String navn;
     int lokale;
 
-    public double getLoen() {
+    public int getLoen() {
         return loen;
     }
 
-    public void setLoen(double loen) {
+    public void setLoen(int loen) {
         this.loen = loen;
     }
 

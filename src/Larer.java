@@ -1,4 +1,4 @@
-public class Lærer extends MoodleUser {
+public class Larer extends MoodleUser {
     String tilhørendeKlasse;
     boolean underviser = false;
 
