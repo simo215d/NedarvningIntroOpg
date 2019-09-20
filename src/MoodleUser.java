@@ -1,4 +1,4 @@
-public class MoodleUser {
+public abstract class MoodleUser {
     int loen;
     String navn;
 
