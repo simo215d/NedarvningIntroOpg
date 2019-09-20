@@ -11,11 +11,9 @@ public class Main {
         carsten.setNavn("Carsten");
         carsten.setUnderviser(false);
         carsten.setLoen(500);
-        carsten.setLokale(8);
         //line
-        line.setLoen(777);
         line.setNavn("Line");
-        line.setLokale(123);
+        line.setLoen(777);
         //historie
         System.out.println();
         System.out.println("Lærere på Zealand: "+andrac.getNavn()+"(Løn:"+andrac.getLoen()+") og "+carsten.getNavn()+"(Løn:"+carsten.getLoen()+")");
